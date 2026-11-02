@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ru.nstu.netifood'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'ru.nstu.netifood'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '7.2.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
